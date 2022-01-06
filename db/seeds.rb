@@ -7,4 +7,10 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-Category.destroy all 
+quads = Category.create(name: "Quads")
+hamstrings = Category.create(name: "Hamstrings")
+shoulders = Category.create(name: "Shoulders")
+abs = Category.create(name: "Abs")
+glutes = Category.create(name: "Glutes")
+triceps = Category.create(name: "Triceps")
+biceps = Category.create(name: "Biceps")
