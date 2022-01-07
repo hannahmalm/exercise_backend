@@ -20,7 +20,11 @@
     git rev-parse --abbrev-ref HEAD
     %  git push -u origin  <branch name>  
     Get back to main branch: git checkout main
-    The git branch command can be used to create a new branch. When you want to start a new feature, you create a new branch off main using git branch new_branch . Once created you can then use git checkout new_branch to switch to that branch
+    The git branch command can be used to create a new branch. When you want to start a new feature, you create a new branch off main using git branch new_branch . Once created you can then use git 
+    HOW TO GET TO MAIN BRANCH
+        checkout new_branch to switch to that branch
+    HOW TO CREATE A NEW BRANCH
+        git co -b new_branch_name
 8. Commit seed and model 
 9. Run rails db:create
 10. Run rails db:migrate
