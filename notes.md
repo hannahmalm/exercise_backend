@@ -19,3 +19,5 @@
 7. HOW TO SEE CURRENT BRANCH:
     git rev-parse --abbrev-ref HEAD
 8. Commit seed and model 
+9. Run rails db:create
+10. Run rails db:migrate
