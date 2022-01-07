@@ -1,4 +1,5 @@
 1. Create a new rails project called Exercise
+ - https://betterprogramming.pub/how-to-fire-up-a-rails-api-for-your-new-project-6fad595caf07
 2. Create a backend and a frontend folder
 3. Create the rails backend by cd into back directory
     rails new project_name_backend --database=postgresql --api
@@ -15,3 +16,6 @@
         add has_many relationship in model 
         git add .
         git commit
+7. HOW TO SEE CURRENT BRANCH:
+    git rev-parse --abbrev-ref HEAD
+8. Commit seed and model 
